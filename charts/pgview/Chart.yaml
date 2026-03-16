@@ -2,8 +2,8 @@ apiVersion: v2
 name: pgview
 description: A Helm chart for deploying PgView on Kubernetes
 type: application
-version: 0.1.0
-appVersion: "0.1.0"
+version: 0.1.1
+appVersion: "0.1.1"
 keywords:
   - pgview
   - postgresql
@@ -17,5 +17,5 @@ maintainers:
 annotations:
   artifacthub.io/license: MIT
   artifacthub.io/changes: |
-    - kind: added
-      description: Initial release
+    - kind: changed
+      description: Update app to version 0.1.1

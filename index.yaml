@@ -3,6 +3,31 @@ entries:
   pgview:
   - annotations:
       artifacthub.io/changes: |
+        - kind: changed
+          description: Update app to version 0.1.1
+      artifacthub.io/license: MIT
+    apiVersion: v2
+    appVersion: 0.1.1
+    created: "2026-03-16T13:22:51.571930989Z"
+    description: A Helm chart for deploying PgView on Kubernetes
+    digest: aca66fca46773a92693ccea9da89e1a5db1c408dea7a70339dc6dcd5ab4ebf0d
+    home: https://github.com/catwallon/pgview
+    keywords:
+    - pgview
+    - postgresql
+    - database
+    maintainers:
+    - name: catwallon
+      url: https://github.com/catwallon
+    name: pgview
+    sources:
+    - https://github.com/catwallon/pgview
+    type: application
+    urls:
+    - https://github.com/Catwallon/pgview-helm/releases/download/pgview-0.1.1/pgview-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      artifacthub.io/changes: |
         - kind: added
           description: Initial release
       artifacthub.io/license: MIT
@@ -26,4 +51,4 @@ entries:
     urls:
     - https://github.com/Catwallon/pgview-helm/releases/download/pgview-0.1.0/pgview-0.1.0.tgz
     version: 0.1.0
-generated: "2026-03-15T19:11:18.553618452Z"
+generated: "2026-03-16T13:22:51.571939184Z"

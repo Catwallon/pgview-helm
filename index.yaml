@@ -4,6 +4,34 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: changed
+          description: Update app to version 0.3.1
+        - kind: added
+          description: Add missing PGVIEW_DB_PORT in README.md
+      artifacthub.io/license: MIT
+    apiVersion: v2
+    appVersion: 0.3.1
+    created: "2026-03-23T19:50:26.185644329Z"
+    description: A Helm chart for deploying PgView on Kubernetes
+    digest: 8bce6e560bb8f4f2d09d7b9d7edcff0dc37cdc47404eee40301a33bedf73abe0
+    home: https://github.com/catwallon/pgview
+    icon: https://github.com/user-attachments/assets/40cee1f7-9569-447f-b03d-3b7ed484c86a
+    keywords:
+    - pgview
+    - postgresql
+    - database
+    maintainers:
+    - name: catwallon
+      url: https://github.com/catwallon
+    name: pgview
+    sources:
+    - https://github.com/catwallon/pgview
+    type: application
+    urls:
+    - https://github.com/Catwallon/pgview-helm/releases/download/pgview-0.3.1/pgview-0.3.1.tgz
+    version: 0.3.1
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
           description: Update app to version 0.3.0
       artifacthub.io/license: MIT
     apiVersion: v2
@@ -103,4 +131,4 @@ entries:
     urls:
     - https://github.com/Catwallon/pgview-helm/releases/download/pgview-0.1.0/pgview-0.1.0.tgz
     version: 0.1.0
-generated: "2026-03-18T12:45:11.606433759Z"
+generated: "2026-03-23T19:50:26.185673224Z"

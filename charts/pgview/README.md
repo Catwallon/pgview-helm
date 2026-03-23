@@ -17,6 +17,7 @@ helm install pgview oci://ghcr.io/catwallon/pgview
 #### Configuration:
 
 `env.PGVIEW_DB_HOST` _(localhost)_  
-`env.PGVIEW_DB_PORT` _(5432)_  
+`env.PGVIEW_DB_PORT` _(5432)_
+`env.PGVIEW_DB_NAME` _(postgres)_  
 `env.PGVIEW_DB_USER`  
 `env.PGVIEW_DB_PASSWORD`

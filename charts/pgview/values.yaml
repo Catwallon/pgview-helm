@@ -94,10 +94,3 @@ volumeMounts: []
   #   readOnly: true
 
 nodeSelector: {}
-
-env:
-  PGVIEW_DB_HOST: "localhost"
-  PGVIEW_DB_PORT: "5432"
-  PGVIEW_DB_USER: ""
-  PGVIEW_DB_PASSWORD: ""
-  PGVIEW_DB_NAME: "postgres"
